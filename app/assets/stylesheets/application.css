@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+.top {
+	background: none repeat scroll 0% 0% rgb(73, 72, 145);
+	overflow: hidden;
+	line-height: 64px;
+	
+}
+
+.site {
+	color: white;
+	font-style: bolder;
+	font-size: 48px;
+	font-family: "Copperplate";
+	text-decoration:none;
+}
+
+.question_area {
+	background-color: #F9F8F3;
+}
+
+h2 {
+	font-style :italic;
+	font-size: 32px;
+}
+
+.heading {
+  margin: 0;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.link {
+  	background: none repeat scroll 0% 0% rgb(73, 72, 145);
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+	color: white;
+	font-style: bolder;
+	font-size: 24px;
+	text-decoration:none;
+}
+
+h3 {
+	color: rgb(73, 72, 145);
+	font-size: 32px;
+	font-style: bolder;
+}
+.text {
+	font-size: 28px;
+}
+
+.text_sm {
+	font-size: 20px;
+}
+
+.bottom {
+	background-color: #F9F8F3;
+	line-height: 72px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
