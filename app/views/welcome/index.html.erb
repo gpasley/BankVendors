@@ -1,6 +1,6 @@
 <div class="top">
 	<div class="container_12">
-		<%= link_to 'BankVendors', root_path, :class => 'site' %>
+		<%= link_to 'Bank Vendors', root_path, :class => 'site' %>
 	</div>
 </div>
 
@@ -9,8 +9,8 @@
 	<br><br>
 	<div class="grid_6">
 		<h2>Looking For A New Bank Vendor?</h2><br>
-		<div class="text_sm">With over <strong>650</strong> listed vendors, FS Vendors is a great starting point to help in your search.</div><br><br>
-		<div><%= link_to 'Browse Vendors', "http://fsvendors.com", :class => 'link' %></div>
+		<div class="text_sm">With over <strong>700</strong> listed vendors, FS Vendors is a great starting point to help in your search.</div><br><br>
+		<div><%= link_to 'Browse Bank Vendors', "http://fsvendors.com/tags/core%20processing", :class => 'link' %></div>
 	</div>
 
 	<div class="grid_6" align="center">
@@ -23,10 +23,10 @@
   <div class="container_12">
 	<table>
 		<tr>
-			<td valign="center" align = "center" width="25%"><%= image_tag("ACTON.jpg")%></td>
-			<td valign="center" align = "center" width="25%"><%= image_tag("geezeo4.jpeg")%></td>
-			<td valign="center" align = "center" width="25%"><%= image_tag("ORCC.jpg")%></td>
-			<td valign="center" align = "center" width="25%"><%= image_tag("fsi.png")%></td>
+			<td valign="center" align = "center" width="25%"><%= link_to image_tag("ACTON.jpg", :alt => 'ACTON Marketing'), "http://fsvendors.com/companies/acton-marketing" %></td>
+			<td valign="center" align = "center" width="25%"><%= link_to image_tag("geezeo4.jpeg", :alt => 'Geezeo'), "http://fsvendors.com/companies/geezeo" %></td>
+			<td valign="center" align = "center" width="25%"><%= link_to image_tag("ORCC.jpg", :alt => 'Online Resources'), "http://fsvendors.com/companies/online-resources" %></td>
+			<td valign="center" align = "center" width="25%"><%= link_to image_tag("fsi.png", :alt => 'Financial Services, Inc'), "http://fsvendors.com/companies/fsi" %></td>
 		</tr>
 	</table>
   </div>
@@ -56,5 +56,5 @@
 
 </div>
 <br>
-<div class="container_12" align="center">&copy; <%= Time.now.strftime("%Y") %> iMazuma, LLC</div>
+<div class="container_12" align="center">&copy; <%= Time.now.strftime("%Y") %> iMazuma, LLC | <%= link_to "Privacy Policy", "http://www.imazuma.com/privacy-policy/" %></div>
 <br><br>
